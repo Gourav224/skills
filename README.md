@@ -1,6 +1,6 @@
-# Gourav's Skills
+# Engineering Skills
 
-Reusable agent skills for how I approach software engineering: understand the product, verify the evidence, ask about meaningful decisions, implement simply, and finish the agreed work.
+Reusable agent skills for software engineering: understand the product, verify the evidence, ask about meaningful decisions, implement simply, and finish the agreed work.
 
 These skills express working preferences rather than a fixed technology stack. Your current instructions, project requirements, and explicit decisions take precedence.
 
@@ -8,26 +8,26 @@ These skills express working preferences rather than a fixed technology stack. Y
 
 | Skill | Purpose |
 | --- | --- |
-| [gourav-engineering](skills/gourav-engineering/SKILL.md) | Product understanding, official documentation, meaningful decision questions, simple implementations, precise scope, and evidence-based completion. |
+| [engineering-judgment](skills/engineering-judgment/SKILL.md) | Product understanding, official documentation, meaningful decision questions, simple implementations, precise scope, and evidence-based completion. |
 
 ## Install
 
 Use the [skills CLI](https://skills.sh/docs/cli) and select the agents you want to install into:
 
 ```sh
-npx skills@latest add Gourav224/skills --skill gourav-engineering
+npx skills@latest add Gourav224/skills --skill engineering-judgment
 ```
 
 For a user-level installation across projects:
 
 ```sh
-npx skills@latest add Gourav224/skills --skill gourav-engineering --global
+npx skills@latest add Gourav224/skills --skill engineering-judgment --global
 ```
 
 To select Claude Code and Codex explicitly:
 
 ```sh
-npx skills@latest add Gourav224/skills --skill gourav-engineering --global --agent claude-code codex
+npx skills@latest add Gourav224/skills --skill engineering-judgment --global --agent claude-code codex
 ```
 
 List the skills before installing:
@@ -36,15 +36,15 @@ List the skills before installing:
 npx skills@latest add Gourav224/skills --list
 ```
 
-The CLI supports multiple coding agents. Availability and invocation depend on the host agent; custom profiles may need their own skill location. Alternatively, copy `skills/gourav-engineering/` into your agent's documented skills directory.
+The CLI supports multiple coding agents. Availability and invocation depend on the host agent; custom profiles may need their own skill location. Alternatively, copy `skills/engineering-judgment/` into your agent's documented skills directory.
 
 ## Use
 
 Ask your agent:
 
-> Use gourav-engineering for this task. Understand the problem, bring meaningful decisions to me, and carry the agreed approach through verification.
+> Use engineering-judgment for this task. Understand the problem, bring meaningful decisions to me, and carry the agreed approach through verification.
 
-In Codex, you can invoke it as `$gourav-engineering`. In Claude Code, use `/gourav-engineering`.
+In Codex, you can invoke it as `$engineering-judgment`. In Claude Code, use `/engineering-judgment`.
 
 Give the agent the task-specific boundaries alongside the skill:
 
@@ -75,7 +75,7 @@ Installing a skill makes it available to an agent; it does not guarantee activat
 
 ```text
 skills/
-  gourav-engineering/
+  engineering-judgment/
     SKILL.md
     agents/
       openai.yaml
@@ -85,7 +85,7 @@ Each skill is self-contained and uses the [Agent Skills format](https://agentski
 
 ## Inspiration
 
-The collection layout was inspired by [Matt Pocock's skills repository](https://github.com/mattpocock/skills). The skill instructions here were developed from my own engineering and collaboration preferences.
+The collection layout was inspired by [Matt Pocock's skills repository](https://github.com/mattpocock/skills). The skill instructions emphasize evidence, user decisions, simple implementations, and focused delivery.
 
 ## License
 

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Gourav Engineering"
-  short_description: "Apply Gourav’s engineering and decision preferences"
-  default_prompt: "Use $gourav-engineering to understand this task, surface meaningful decisions, and carry the agreed approach through verification."

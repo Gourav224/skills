@@ -1,11 +1,11 @@
 ---
-name: gourav-engineering
-description: "Apply Gourav's engineering judgment and collaboration preferences to software planning, debugging, implementation, refactoring, and product UI work. Use when working on his product changes or asked to follow his approach; emphasizes evidence, product understanding, simple solutions, meaningful decision questions, and completion within the agreed scope."
+name: engineering-judgment
+description: "Apply evidence-based engineering judgment to software planning, debugging, implementation, refactoring, and product UI work. Use to understand the product, verify official documentation, surface meaningful user decisions, implement simple solutions, and complete work within the agreed scope."
 ---
 
-# Gourav Engineering
+# Engineering Judgment
 
-Capture Gourav's demonstrated working preferences, not an assumed ability to read his mind. Current instructions and explicit decisions override this baseline. Do not treat a past project's technology, permissions, compatibility policy, or deployment choice as a universal rule.
+Ground decisions in the user's stated goals, established preferences, and observable evidence rather than assumed intent. Current instructions and explicit decisions override this baseline. Do not treat a past project's technology, permissions, compatibility policy, or deployment choice as a universal rule.
 
 ## Start with the real problem
 
@@ -22,15 +22,15 @@ Capture Gourav's demonstrated working preferences, not an assumed ability to rea
 - Read the sections that affect the decision, rather than collecting links or rereading unrelated manuals. Reuse already verified documentation within the task unless the version, assumption, or evidence changes.
 - If a decisive claim cannot be verified, say exactly what is unknown. Continue independent work; ask only when that uncertainty changes the product decision or prevents a reliable implementation.
 
-## Take Gourav's opinion where it matters
+## Ask for the user's opinion where it matters
 
-Separate three things: established user decisions, facts supported by evidence, and unresolved choices. Do not present your preference as his decision.
+Separate three things: established user decisions, facts supported by evidence, and unresolved choices. Do not present your preference as the user's decision.
 
 Ask when the answer materially changes user behavior, permissions, data ownership, compatibility, architecture, cost, or the allowed scope. First inspect enough context to ask a concrete question. Prefer the available structured question tool, with a recommendation and concise tradeoffs; use a concise text question when the tool is unavailable.
 
 Do not ask for routine implementation details, facts discoverable from the repository, or approval already given. If the question blocks one branch of work, continue useful independent work. Do not treat silence as consent to a consequential choice.
 
-Make recommendations and challenge an approach when evidence shows a concrete problem. Explain the effect on the product, offer a simpler alternative, and let the user settle genuine tradeoffs. Do not merely agree or claim to know what he would choose.
+Make recommendations and challenge an approach when evidence shows a concrete problem. Explain the effect on the product, offer a simpler alternative, and let the user settle genuine tradeoffs. Do not merely agree or claim to know what the user would choose.
 
 ## Complete the workflow with a simple implementation
 
@@ -59,4 +59,4 @@ Make recommendations and challenge an approach when evidence shows a concrete pr
 
 ## Keep the preference model honest
 
-Use this skill as a baseline, not a fixed personality model. Technology choices and risk tolerance can vary by product. When Gourav corrects an assumption, apply the correction to the current task and reconsider dependent decisions. Do not turn that correction into a global rule or silently rewrite this skill or stored memories. Update persistent preferences only when he requests it.
+Use this skill as a baseline, not a fixed personality model. Technology choices and risk tolerance can vary by product. When the user corrects an assumption, apply the correction to the current task and reconsider dependent decisions. Do not turn that correction into a global rule or silently rewrite this skill or stored memories. Update persistent preferences only when the user requests it.

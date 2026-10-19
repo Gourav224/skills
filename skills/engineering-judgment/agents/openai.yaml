@@ -1,0 +1,4 @@
+interface:
+  display_name: "Engineering Judgment"
+  short_description: "Evidence-based decisions and focused implementation"
+  default_prompt: "Use $engineering-judgment to understand this task, surface meaningful decisions, and carry the agreed approach through verification."
